@@ -2,8 +2,8 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>شركة مطاعم عم قاسم</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -16,73 +16,64 @@ body{
     color:#000;
     text-align:center;
 }
-
 .container{
-    max-width:420px;
+    max-width:480px;
     margin:auto;
     padding:30px 15px;
 }
-
 h1{
-    margin-bottom:10px;
+    margin-bottom:5px;
 }
-
 .desc{
     color:#444;
-    font-size:14px;
     margin-bottom:25px;
+    font-size:14px;
 }
-
 .link-btn{
     display:flex;
     align-items:center;
     justify-content:center;
     gap:10px;
-    background:#c40000;
-    color:#fff;
-    text-decoration:none;
+    background:#fff;
+    border:2px solid #c40000;
+    color:#c40000;
     padding:14px;
+    border-radius:14px;
     margin-bottom:12px;
-    border-radius:30px;
+    text-decoration:none;
     font-size:16px;
+    font-weight:bold;
     transition:0.3s;
 }
-
 .link-btn:hover{
-    background:#a30000;
+    background:#c40000;
+    color:#fff;
 }
-
-.link-btn i{
-    font-size:18px;
-}
-
 .section{
-    margin-top:30px;
-    padding:20px;
-    border:1px solid #eee;
-    border-radius:15px;
+    margin-top:35px;
+    display:none;
 }
-
 .section h2{
     color:#c40000;
     margin-bottom:15px;
 }
-
 .branch{
-    margin-bottom:12px;
+    border:1px solid #ddd;
+    padding:12px;
+    border-radius:12px;
+    margin-bottom:10px;
     font-size:14px;
 }
-
 .branch a{
+    display:block;
     color:#c40000;
     text-decoration:none;
-    display:block;
     margin-top:5px;
+    font-weight:bold;
 }
-
-.footer{
+footer{
     margin-top:30px;
-    font-size:12px;
+    font-size:13px;
     color:#777;
 }
 </style>
@@ -94,11 +85,11 @@ h1{
 
 <h1>شركة مطاعم عم قاسم</h1>
 <div class="desc">
-متخصصون في الأكلات الشعبية الأصلية  
-<br>#عريكة_بس #شعارنا_يميزنا
+متخصصون في الأكلات الشعبية الاصلية<br>
+#عريكة_بس #شعارنا_يميزنا
 </div>
 
-<!-- روابط التواصل -->
+<!-- روابط -->
 <a class="link-btn" href="https://www.facebook.com/aam.qasimm" target="_blank">
 <i class="fab fa-facebook-f"></i> فيسبوك
 </a>
@@ -111,7 +102,7 @@ h1{
 <i class="fab fa-snapchat"></i> سناب شات
 </a>
 
-<a class="link-btn" href="https://www.tiktok.com/@hmgasm" target="_blank">
+<a class="link-btn" href="https://www.tiktok.com/@hmgasm?_r=1&_t=ZS-92bPahUNcTk" target="_blank">
 <i class="fab fa-tiktok"></i> تيك توك
 </a>
 
@@ -131,62 +122,67 @@ h1{
 <i class="fab fa-whatsapp"></i> واتساب
 </a>
 
-<!-- الفروع -->
-<div class="section">
+<!-- زر الفروع -->
+<a class="link-btn" href="#branches" onclick="toggleBranches()">
+<i class="fas fa-location-dot"></i> فروعنا
+</a>
+
+<!-- قسم الفروع -->
+<div id="branches" class="section">
+
 <h2>فروعنا</h2>
 
-<div class="branch">فرع مكة - الستين  
-<a href="https://share.google/7SPAgA2eNI6BBpa2x" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع مكة الشرائع  
-<a href="https://share.google/2DpbTX80zfXo9pE5c" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع مكة المجاهدين  
-<a href="https://share.google/fr9jqVZ8QJUdprIDL" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع جدة الصالحية  
-<a href="https://share.google/wU95DHy2icoDCZlC0" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع جدة البوادي  
-<a href="https://share.google/gwPBwePLZyqlp3sbi" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع جدة طيبة  
-<a href="https://share.google/QWhz3jVls94PtOVx4" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع الطائف  
-<a href="https://share.google/iTssh2YNJre91vnwx" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع رابغ  
-<a href="https://share.google/Jidwz4XXkOjQgRbUW" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع القنفذة  
-<a href="https://share.google/b8NsORZI0xoUc68Hy" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع المدينة المنورة حي الملك فهد  
-<a href="https://share.google/sXKuyqRYd24A0sN9q" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع المدينة المنورة  
-<a href="https://share.google/jpBiCUqmT6tivTNLq" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع الرياض  
-<a href="https://share.google/ju7FrBPC4P7FtDPrl" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع الرياض حي طويق  
-<a href="https://share.google/5xZf2xtskg2H9u1TZ" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع الرياض حي الشفاء  
-<a href="https://maps.app.goo.gl/wmm38zGJeG7ArCVPA" target="_blank">عرض الموقع</a></div>
-
-<div class="branch">فرع أبها  
-<a href="https://maps.app.goo.gl/x3L4taF3yWfVLaVT6" target="_blank">عرض الموقع</a></div>
-
+<div class="branch">فرع مكة - الستين
+<a href="https://share.google/7SPAgA2eNI6BBpa2x" target="_blank">عرض الموقع</a>
 </div>
 
-<div class="footer">
-© شركة مطاعم عم قاسم
+<div class="branch">فرع مكة الشرائع
+<a href="https://share.google/2DpbTX80zfXo9pE5c" target="_blank">عرض الموقع</a>
 </div>
 
+<div class="branch">فرع مكة المجاهدين
+<a href="https://share.google/fr9jqVZ8QJUdprIDL" target="_blank">عرض الموقع</a>
 </div>
 
-</body>
-</html>
+<div class="branch">فرع جدة الصالحية
+<a href="https://share.google/wU95DHy2icoDCZlC0" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع جدة البوادي
+<a href="https://share.google/gwPBwePLZyqlp3sbi" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع جدة طيبة
+<a href="https://share.google/QWhz3jVls94PtOVx4" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع الطائف
+<a href="https://share.google/iTssh2YNJre91vnwx" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع رابغ
+<a href="https://share.google/Jidwz4XXkOjQgRbUW" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع القنفذة
+<a href="https://share.google/b8NsORZI0xoUc68Hy" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع المدينة المنورة - حي الملك فهد
+<a href="https://share.google/sXKuyqRYd24A0sN9q" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع المدينة المنورة
+<a href="https://share.google/jpBiCUqmT6tivTNLq" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع الرياض
+<a href="https://share.google/ju7FrBPC4P7FtDPrl" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع الرياض حي طويق
+<a href="https://share.google/5xZf2xtskg2H9u1TZ" target="_blank">عرض الموقع</a>
+</div>
+
+<div class="branch">فرع الرياض حي الشفاء
+<a
